@@ -1,5 +1,7 @@
 package HomeworkCode;
 
+import org.junit.Test;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -13,6 +15,7 @@ public class RandomMatrix {
         DrawMatrix(matrix,dim);
     }
 
+    //Integer x = 3+new Integer(3);
     public static int[][] CreateMatrix(int[][] matrix,int dim) {
         for(int i=0;i<dim;i++) {
             for(int j=0;j<dim;j++) {
@@ -30,4 +33,5 @@ public class RandomMatrix {
             System.out.println();
         }
     }
+
 }
